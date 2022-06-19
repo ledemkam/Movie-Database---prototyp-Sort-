@@ -1,0 +1,27 @@
+.Main {
+  width: 100%;
+}
+
+.main-contain {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  justify-content: center;
+  grid-gap: 10px;
+  margin: 100px auto;
+}
+
+.contain-input {
+  width: 50%;
+  margin-left: 40%;
+  margin-top: 2%;
+}
+.contain-input .input {
+  width: 50%;
+  height: 5vh;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.contain-input ::placeholder {
+  text-align: center;
+}
